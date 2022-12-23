@@ -1,7 +1,6 @@
 import './styles.css';
 // import { Route, Routes } from 'react-router-dom';
 
-import Navbar from "./components/Navbar.js"
 import Home from "./routes/Home";
 import About from './routes/About';
 import Service from './routes/Service';
@@ -21,7 +20,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />        
       </Routes>
 
-      <Navbar/>
+  
       
     </div>
   );
