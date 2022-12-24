@@ -1,10 +1,18 @@
 import Navbar from "../components/Navbar.js"
+import Hero from "../components/Hero.js";
+import img from "../../src/assets/3montazosprzetuelektrycznego/3/d.jpg";
+
 
 function Gallery () {
     return (
         <>
         <Navbar/>
-        <h1>This is galleria </h1>
+        <Hero
+            cName = "hero-mid"
+            heroImg = {img}
+            title = "Zobacz nasze realizacje "
+            btnClass = "hide"
+        />
         </>
     );
 }

@@ -1,10 +1,17 @@
 import Navbar from "../components/Navbar.js"
+import Hero from "../components/Hero.js";
+import img from "../../src/assets/1montazinstalacjielektrycznej/2/1.jpg";
 
 function Contact () {
     return (
         <>
         <Navbar/>
-        <h1>This is contact </h1>
+        <Hero
+            cName = "hero-mid"
+            heroImg = {img}
+            title = "Kontakt"
+            btnClass = "hide"
+        />
         </>
     );
 }
