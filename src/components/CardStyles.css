@@ -3,11 +3,22 @@
 }
 
 .card h1 {
-    font-size: 3rem ;
+    font-size: 3.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(58, 59, 59)
 }
 
 .first-des {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-des-reverse {
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
@@ -21,6 +32,11 @@
 
 .des-text h2 {
     padding-bottom: 1rem;
+}
+
+.des-text p {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 .image {
@@ -53,6 +69,12 @@
         display: flex;
         flex-direction: column-reverse;
         margin-top: 2.5rem;
+    }
+
+    .first-des-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3.5rem;
     }
 
     .des-text {

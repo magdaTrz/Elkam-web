@@ -1,6 +1,8 @@
 import Hero from "../components/Hero.js";
 import Navbar from "../components/Navbar.js"
 import Card from "../components/Card.js"
+import Service from "../components/Service.js"
+
 import img from "../../src/assets/1.jpg"
 
 function Home () {
@@ -17,6 +19,7 @@ function Home () {
             btnClass = "show"
         />
         <Card/>
+        <Service/>
         </>
     );
 }

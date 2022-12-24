@@ -1,21 +1,20 @@
 import { Component} from "react"
 import "./CardStyles.css";
 
-import img1 from "../../src/assets/8montazpanelifotowol/panele1.jpg";
-import img2 from "../../src/assets/7przylacza/przylacza2.jpg";
 
 class CardData extends Component {
     render() {
         return (
-            <div className="first-des">
+            <div className={this.props.cName}>
                 <div className="des-text">
                     <h2>{this.props.heading}</h2>
-                    <p>{this.props.text</p>
+                    <p>{this.props.arg1}</p>
+                    <p>{this.props.arg2}</p>
 
                 </div>
                 <div className="image">
-                    <img alt="zdjecie1" src={img1} />
-                    <img alt="zdjecie2" src={img2} />
+                    <img alt="zdjecie1" src={this.props.img1} />
+                    <img alt="zdjecie2" src={this.props.img2} />
                 </div>
             </div>
         )
