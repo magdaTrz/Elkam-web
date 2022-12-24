@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar.js"
 import Hero from "../components/Hero.js";
+import ContactForm from "../components/ContactForm.js";
 import Footer from "../components/Footer.js";
 import img from "../../src/assets/1montazinstalacjielektrycznej/2/1.jpg";
 
@@ -13,6 +14,7 @@ function Contact () {
             title = "Kontakt"
             btnClass = "hide"
         />
+        <ContactForm/>
         <Footer/>
         </>
     );
