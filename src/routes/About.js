@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar.js"
 import Hero from "../components/Hero.js";
+import AboutUs from "../components/AboutUs.js";
+import Footer from "../components/Footer.js";
 import img from "../../src/assets/about.jpg"
 
 function About () {
@@ -12,6 +14,8 @@ function About () {
             title = "O nas"
             btnClass = "hide"
         />
+        <AboutUs/>
+        <Footer/>
         </>
     );
 }
