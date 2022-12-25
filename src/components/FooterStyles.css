@@ -2,24 +2,23 @@
     background: #544a46;
     padding: 4rem 6rem;
     color: white;
-}
-
-.top {
     display: flex;
-    text-align: start;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
-.footer img {
-    width: 150px;
-}
+ .bottom img {
+    height: 80px;
+    width: 200px;
+    margin-bottom: auto;
+} 
 
 .bottom {
-    padding-top: 2rem;
+    padding-top: 0rem;
     text-align: start;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .bottom i {
@@ -53,9 +52,19 @@
     font-size: 1.1rem;
 }
 
+.map {
+    margin:auto;
+    padding: 0; 
+    padding-left: 4rem;
+}
+
 @media screen and (max-width: 850px) {
     .footer {
         padding: 4rem 2rem;
+        display: flex;
+    }
+    .map {
+        display: none;
     }
 
 

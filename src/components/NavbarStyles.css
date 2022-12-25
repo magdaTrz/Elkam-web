@@ -1,6 +1,6 @@
 .NavbarItems {
     z-index: 1000;
-    background-color: rgb(58, 59, 59);
+    background-color: #544a46;
     display: flex;
     justify-content: space-between;
     align-items:  center;
@@ -42,27 +42,27 @@
 }
 
 .nav-links:hover {
-    background: #CD0002;
+    background: #cc0404;
     color: #fff;
     border-radius: 4px;
     transition: all 0.3s ease-in-out;
 }
 
 .contact {
-    background-color: whitesmoke;
+    background-color: #f2e7d8;
     border: none;
     cursor: pointer;
-    color: #222;
+    color: #544a46;
     border-radius: 4px;
     transition: 0.2 ease-in-out;
 }
 
 .contact:hover {
-    background-color: #222;
+    background-color: #afa09f;
 }
 
 .menu-icons {
-    display: none; ;
+    display: none;
 }
 
 @media screen 
@@ -74,7 +74,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background-color: rgb(58, 59, 59);
+        background-color: #544a46;
         width: 100%;
         height: auto;
         position: absolute;
@@ -100,12 +100,14 @@
         display: block;
         width: 100%;
         font-size: 1.2rem;
-        padding: 2rem 0;
+        padding: 1.2rem 0;
     }
 
     .nav-links:hover {
-        background: #CD0002;
+        background: #cc0404;
         transition: none;
+        width: 80%;
+        margin: auto;
     }
 
     .contact {
@@ -114,7 +116,7 @@
         margin: auto;
         width: 80%;
         border-radius: 4px;
-        background-color: #aaa0a0;
+        background-color: #f19b0b;
         color: white;
         font-size: 1.2rem;
         font-weight: 700;

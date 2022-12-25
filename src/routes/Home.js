@@ -16,7 +16,7 @@ function Home () {
             title = "Zajmujemy się kompleksową realizacją różnorodnych usług elektrycznych"
             text = ""
             url = "/"
-            buttonText = "Poznaj naszą ofertę"
+            buttonText = "Poznaj ofertę"
             btnClass = "show"
         />
         <Card/>
