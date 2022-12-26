@@ -15,12 +15,12 @@ function Home () {
             heroImg = {img}
             title = "Zajmujemy się kompleksową realizacją różnorodnych usług elektrycznych"
             text = ""
-            url = "/"
+            url = "/services"
             buttonText = "Poznaj ofertę"
             btnClass = "show"
         />
         <Card/>
-        <Service/>
+        <Service id="section-service"/>
         <Footer/>
         </>
     );

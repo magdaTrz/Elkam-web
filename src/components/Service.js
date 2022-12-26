@@ -1,7 +1,8 @@
 import "./ServiceStyles.css";
 import ServiceData from "./ServiceData";
-    import img1 from "../../src/assets/uslugi/rozdzielnica.jpg";    //Montaż i naprawa instalacji elektrycznych
-    import img2 from "../../src/assets/uslugi/protokol.jpg";        //Pomiary instalacji elektrycznych
+
+import img1 from "../../src/assets/uslugi/rozdzielnica.jpg";    //Montaż i naprawa instalacji elektrycznych
+import img2 from "../../src/assets/uslugi/protokol.jpg";        //Pomiary instalacji elektrycznych
 import img3 from "../../src/assets/uslugi/uziemnienie.jpg";         //Montaż instalacji odgromowych
 import img4 from "../../src/assets/uslugi/gniazdko.jpg";            //Montaż osprzętu elektrycznego
 import img5 from "../../src/assets/uslugi/kamera.jpg";            //Systemy bezpieczeństwa
@@ -16,7 +17,9 @@ function Service() {
             <h1>Zakres usług Elektrycznych</h1>
             <p className="service-para">Skontaktuj się z nami, a na pewno pomożemy Ci rozwiązać Twój problem!</p>
             <div className="servicecard">
+            
                 <ServiceData
+                    url="/services"
                     image={img1}
                     heading="Montaż i naprawa instalacji elektrycznych"
                     text="Elkam Electric oferuje wszelkie usługi związane z naprawą, konserwacją, modernizacją oraz montażem instalacji elektrycznych. "

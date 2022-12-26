@@ -2,7 +2,8 @@ import Navbar from "../components/Navbar.js"
 import Hero from "../components/Hero.js";
 import AboutUs from "../components/AboutUs.js";
 import Footer from "../components/Footer.js";
-import img from "../../src/assets/about.jpg"
+import CardData from "../components/CardData.js";
+import img from "../../src/assets/uslugi/rozdzielnica.jpg";
 
 function About () {
     return (
@@ -14,6 +15,7 @@ function About () {
             title = "O nas"
             btnClass = "hide"
         />
+
         <AboutUs/>
         <Footer/>
         </>

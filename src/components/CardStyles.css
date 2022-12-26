@@ -1,3 +1,8 @@
+.card-background {
+    background-color: #f2e7d8;
+    z-index: -11000;
+}
+
 .card {
     margin: 4rem 6rem;
 }
@@ -5,15 +10,30 @@
 .card h1 {
     font-size: 3.1rem;
     font-weight: bold;
-    text-align: center;
-    color: rgb(58, 59, 59)
+    text-align: start;
+    color: rgb(58, 59, 59);
+    padding-top: ;
+}
+
+.card h2 {
+    width: 50%;
+    color: #544a46;
+    font-size: 1.2rem;
 }
 
 .first-des {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4.5rem;
+    margin-top: .5rem;
+}
+
+.first-des-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .5rem;
+    margin: 4rem 6rem;
 }
 
 .first-des-reverse {
@@ -31,11 +51,10 @@
 }
 
 .des-text h2 {
-    padding-bottom: 1rem;
 }
 
 .des-text p {
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
     font-size: 1.2rem;
 }
 
@@ -44,7 +63,7 @@
     width: 50%;
     display: flex;
     justify-content:  space-between;
-    z-index: -99;
+    z-index: 1;
 }
 
 .image img {

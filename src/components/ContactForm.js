@@ -1,5 +1,7 @@
 import "./ContactFormStyles.css";
 
+// www.emailjs.com
+
 function ContactForm() {
     return(
     <>
@@ -11,7 +13,7 @@ function ContactForm() {
             <div className="contact-icons">
                 <div className="icon">
                     <i class="fa-solid fa-location-dot"></i>
-                    ul. Władysława Bełzy 9/40,15-110 Białystok
+                    ul. Władysława Bełzy 9/40, 15-110 Białystok
                 </div>
                 <div className="icon">
                     <i class="fa-solid fa-phone"></i>

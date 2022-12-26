@@ -9,7 +9,7 @@ function AboutUs() {
             Specjalizujemy się w montażu instalacji elektrycznych oraz alarmowych. 
             Swoje wieloletnie doświadczenie łączymy z najnowszą wiedzą, którą na bieżąco aktualizujemy. 
             Naszym priorytetem jest zawsze zadowolenie klienta oraz precyzyjne i bezpieczne wykonanie każdego zlecenia. 
-            Zależy Ci na jakości? Nam możesz zaufać. Zapraszamy do kontaktu!</p>
+            <p></p>Zależy Ci na jakości? Nam możesz zaufać. Zapraszamy do kontaktu!</p>
         </div>
     );
 }
