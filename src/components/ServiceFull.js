@@ -10,7 +10,6 @@ import img6 from "../../src/assets/uslugi/przylacze-1.jpg";         //Układanie
 import img7 from "../../src/assets/uslugi/kable.jpg";        //Przyłącza energetyczne
 import img8 from "../../src/assets/uslugi/solar.jpg";               //Montaż paneli fotowoltaicznych
 import img9 from "../../src/assets/uslugi/plytaindukcyjna.jpg";     //Podłączanie sprzętu AGD
-
 function ServiceFull() {
     return (
         <div className="servicefull">

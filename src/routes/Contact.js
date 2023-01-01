@@ -8,12 +8,12 @@ function Contact () {
     return (
         <>
         <Navbar/>
-        <Hero
+        {/* <Hero
             cName = "hero-mid"
             heroImg = {img}
             title = "Kontakt"
             btnClass = "hide"
-        />
+        /> */}
         <ContactForm/>
         <Footer/>
         </>

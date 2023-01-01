@@ -4,7 +4,7 @@ import Card from "../components/Card.js"
 import Service from "../components/Service.js"
 import Footer from "../components/Footer.js";
 
-import img from "../../src/assets/1.jpg"
+import img from "../../src/assets/IMG1.jpg"
 
 function Home () {
     return (
@@ -13,14 +13,14 @@ function Home () {
         <Hero
             cName = "hero"
             heroImg = {img}
-            title = "Zajmujemy się kompleksową realizacją różnorodnych usług elektrycznych"
+            title = "Zajmujemy się kompleksową realizacją usług elektrycznych"
             text = ""
             url = "/services"
             buttonText = "Poznaj ofertę"
             btnClass = "show"
         />
         <Card/>
-        <Service id="section-service"/>
+        {/* <Service id="section-service"/> */}
         <Footer/>
         </>
     );

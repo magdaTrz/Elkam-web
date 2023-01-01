@@ -1,7 +1,7 @@
 .footer {
-    background: #544a46;
+    background: #image.png;
     padding: 4rem 6rem;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
 }
@@ -22,7 +22,7 @@
 }
 
 .bottom i {
-    color: white;
+    color: BLACK;
     font-size: 1.2rem;
     padding-right: 1rem;
 }
@@ -47,7 +47,7 @@
 
 .bottom a {
     text-decoration: none;
-    color: white;
+    color: BLACK;
     padding-bottom: .4rem;
     font-size: 1.1rem;
 }

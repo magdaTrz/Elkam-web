@@ -22,12 +22,12 @@ img {
 
 .hero-text {
     position: absolute;
-    background: rgb(0,0,0,.50);
+    /* background: rgba(154, 166, 173, 0.3); */
     border-radius: 12px;
     padding: 2rem;
-    top: 55%;
-    left: 30%;
-    max-width: 50%;
+    top: 30%;
+    left: 20%;
+    max-width: 40%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
@@ -36,7 +36,7 @@ img {
 
     font-size: 3rem;
     font-weight: 800;
-    background: white;
+    background: rgb(0, 0, 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 

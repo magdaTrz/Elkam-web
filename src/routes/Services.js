@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar.js"
 import Hero from "../components/Hero.js";
-import ServiceFull from "../components/ServiceFull.js";
+import Service from "../components/Service.js";
 import Footer from "../components/Footer.js"
 import img from "../../src/assets/1montazinstalacjielektrycznej/1/3.jpg";
 
@@ -14,7 +14,7 @@ function Services () {
             title = "Zakres usług elektrycznych "
             btnClass = "hide"
         />
-        <ServiceFull/>
+        <Service/>
         <Footer/>
         </>
     );
