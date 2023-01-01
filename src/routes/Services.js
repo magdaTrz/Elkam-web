@@ -11,7 +11,7 @@ function Services () {
         <Hero
             cName = "hero-mid"
             heroImg = {img}
-            title = "Zakres usług elektrycznych "
+            title = ""
             btnClass = "hide"
         />
         <Service/>

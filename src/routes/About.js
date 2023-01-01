@@ -12,7 +12,7 @@ function About () {
         <Hero
             cName = "hero-mid"
             heroImg = {img}
-            title = "O nas"
+            title = ""
             btnClass = "hide"
         />
 

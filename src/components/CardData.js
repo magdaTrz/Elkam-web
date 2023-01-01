@@ -14,7 +14,6 @@ class CardData extends Component {
                 </div>
                 <div className="image">
                 <img alt="zdjecie1" src={this.props.img1} />
-                <img alt="zdjecie2" src={this.props.img2} />
                 </div>
             </div>
         )

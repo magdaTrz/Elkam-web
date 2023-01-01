@@ -19,67 +19,52 @@ function Service() {
             <div className="servicecard">
             
                 <ServiceData
-                    url="/services"
+                    url="/S_MontazNaprawa"
                     image={img1}
                     heading="Montaż i naprawa instalacji elektrycznych"
-                    text="Elkam Electric oferuje wszelkie usługi związane z naprawą, konserwacją, modernizacją oraz montażem instalacji elektrycznych. "
                 />
 
                 <ServiceData
+                    url="/services"
                     image={img2}
                     heading="Pomiary instalacji elektrycznych "
-                    text="Zgodnie z Prawem Budowlanym użytkowanie instalacji elektrycznych związane jest z wykonywaniem przeglądów okresowych, 
-                    które powinny być przeprowadzenie, w zależności od przeznaczenia budynku, ale nie rzadziej niż co pięć lat. "
                 />
 
                 <ServiceData
                     image={img3}
                     heading="Montaż instalacji odgromowych"
-                    text="Budujesz dom i zastanawiasz się czy warto inwestować w instalację odgromową? Odpowiedź brzmi: zdecydowanie TAK. 
-                    Dzięki czemu zapewniamy bezpieczeństwo sobie i bliskim. "
                 />
             </div>
             <div className="servicecard">
                 <ServiceData
                     image={img4}
                     heading="Montaż osprzętu elektrycznego"
-                    text="Wykonujemy kompleksowy montaż osprzętu elektrycznego: gniazdek, włączników oraz instalacji oświetleniowych zarówno wewnętrznych, jak i zewnętrznych. 
-                    Realizujemy zlecenia zgodnie z projektami wnętrzarskimi oraz z zaleceniami klienta."
                 />
                 
                 <ServiceData
                     image={img5}
                     heading="Systemy bezpieczeństwa"
-                    text="Zapewnij sobie kompleksową ochronę przed wtargnięciem osób trzecich oraz przez zagrożeniami takimi jak dym, gaz czy zalanie wodą."
                 />
                 
                 <ServiceData
                     image={img6}
                     heading="Układanie kabli energetycznych w ziemi"
-                    text="Nasza oferta obejmuje układanie kablii według wytycznych zleconych przez geodetę."
                 />
             </div>
             <div className="servicecard">
                 <ServiceData
                     image={img7}
                     heading="Przyłącza energetyczne"
-                    text="Budując dom, koniecznie musisz zadbać o zapewnienie działce odpowiedniego przyłącza energetycznego. 
-                    Nasza usługa obejmuje zarówno wykonawstwo, jak i pomoc w uzupełnieniu odpowiedniej dokumentacji."
                 />
                 
                 <ServiceData
                     image={img8}
                     heading="Montaż paneli fotowoltaicznych"
-                    text="Dla każdego klienta indywidualnie przygotowujemy wycenę instalacji fotowoltaicznej w zależności od potrzeb. 
-                    Doradzamy jaką instalację wybrać, aby zyskać na tym rozwiązaniu jak najwięcej. 
-                    Ponadto pomagamy w uzupełnieniu niezbędnej dokumentacji oraz w uzyskaniu dostępnych dofinansowań."
                 />
                 
                 <ServiceData
                     image={img9}
                     heading="Podłączanie sprzętu AGD"
-                    text="Kupiłeś nową pralkę, suszarkę, płytę indukcyjną, lodówkę lub inny sprzęt AGD pod zabudowę? Nie wiesz jak go zamontować?
-                    W ramach świadczonej usługi montujemy sprzęt, podbijamy gwarancję i przeprowadzamy testowe uruchomienie sprzętu."
                 />
             </div>
         </div>

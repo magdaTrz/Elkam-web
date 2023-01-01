@@ -1,5 +1,5 @@
 .card-background {
-    background-color: #d1d1d1;;
+    background-color: #fcfcfc;;
     z-index: -11000;
 }
 
@@ -11,13 +11,12 @@
     font-size: 3.1rem;
     font-weight: bold;
     text-align: start;
-    color: rgb(58, 59, 59);
-    padding-top: ;
+    color: rgb(0, 0, 0);
 }
 
 .card h2 {
-    width: 50%;
-    color: #544a46;
+    width: 45%;
+    color: #CD0002;
     font-size: 1.2rem;
 }
 
@@ -62,12 +61,12 @@
     position: relative;
     width: 50%;
     display: flex;
-    justify-content:  space-between;
+    justify-content: center;
     z-index: 1;
 }
 
 .image img {
-    width: 49%;
+    width: 80%;
     height: 350px;
     object-fit: cover;
     border-radius: 6px;
@@ -78,6 +77,8 @@
     position: absolute;
     top: -10%;
     right: 0;
+    padding: 3%;
+    background-color: aqua;
 }
 
 @media screen and (max-width: 850px) {

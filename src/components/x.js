@@ -1,5 +1,5 @@
 import "./ServiceFullStyles.css";
-import ServiceFullData from "./ServiceFullData"
+import ServiceFullData from "./xData"
 
 import img1 from "../../src/assets/uslugi/rozdzielnica.jpg";    //Montaż i naprawa instalacji elektrycznych
 import img2 from "../../src/assets/uslugi/protokol.jpg";        //Pomiary instalacji elektrycznych
