@@ -21,9 +21,13 @@ const Footer = () => {
             {/* <div><img src={elkamLogo} alt="Logo"/></div> */}
             <div className="contactLab">
               <h4>Kontakt</h4>
-              <a href="/"><i class="fa-solid fa-location-dot"></i> ul. Władysława Bełzy 9/40,<p>15-110 Białystok</p> </a>
-              <a href="/"><i class="fa-solid fa-phone"></i>+(48) 601 825 483</a>
-              <a href="/"><i class="fa-solid fa-envelope"></i>biuro@elkamelectric.pl</a>
+              <a href="/"> ul. Władysława Bełzy 9/40,<p>15-110 Białystok</p> </a>
+              <a href="/"><h5>Telefon:</h5>+(48) 601 825 483</a>
+              <a href="/"><h5>E-mail:</h5>biuro@elkamelectric.pl</a>
+            </div>
+            <div className="contactLab nip">
+              <a href="/"><h5>NIP:</h5>291 02 06 751</a>
+              <a href="/"><h5>REGON:</h5>385082904</a>
             </div>
           </div>  
         </div>

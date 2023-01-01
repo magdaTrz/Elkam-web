@@ -1,0 +1,85 @@
+.fullService{
+    padding: 50px;
+}
+
+.serviceOCard {
+    margin: 0 6rem 4rem 6rem;
+    background-color: #fcfcfc;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+}
+
+.serviceCard-text {
+    padding: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;  
+}
+
+.serviceOCard h1 {
+    font-size: 3.1rem;
+    font-weight: bold;
+    text-align: start;
+    color: rgb(0, 0, 0);
+}
+
+.serviceOCard li {
+    color: #CD0002;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.serviceOCard h5 {
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.serviceOCard p {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+
+.imageServiceCard {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.imageServiceCard img {
+    margin-top: 100px;
+    padding-left: 10px;
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgb(0, 0, 0, .19);
+}
+
+
+@media screen and (max-width: 1100px) {
+    .serviceOCard {
+        margin: 2rem 4rem;
+        flex-direction: column;
+    }
+
+    .serviceCard-text {
+        font-size: 1rem;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .imageServiceCard {
+        width: 100%;
+        /* padding-top: 1rem; */
+    }
+
+}

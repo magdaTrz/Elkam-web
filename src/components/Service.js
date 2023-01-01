@@ -6,12 +6,12 @@ import img2 from "../../src/assets/uslugi/protokol.jpg";        //Pomiary instal
 import img3 from "../../src/assets/uslugi/uziemnienie.jpg";         //Montaż instalacji odgromowych
 import img4 from "../../src/assets/uslugi/gniazdko.jpg";            //Montaż osprzętu elektrycznego
 import img5 from "../../src/assets/uslugi/kamera.jpg";            //Systemy bezpieczeństwa
-import img6 from "../../src/assets/uslugi/przylacze-1.jpg";         //Układanie kabli energetycznych w ziemi
+import img6 from "../../src/assets/6ukladaniekabli/kable3.jpg";        //Układanie kabli energetycznych w ziemi
 import img7 from "../../src/assets/uslugi/kable.jpg";        //Przyłącza energetyczne
 import img8 from "../../src/assets/uslugi/solar.jpg";               //Montaż paneli fotowoltaicznych
 import img9 from "../../src/assets/uslugi/plytaindukcyjna.jpg";     //Podłączanie sprzętu AGD
 
-function Service() {
+function Service(props) {
     return (
         <div className="service">
             <h1>Zakres usług Elektrycznych</h1>
@@ -19,50 +19,57 @@ function Service() {
             <div className="servicecard">
             
                 <ServiceData
-                    url="/S_MontazNaprawa"
+                    url="/MontazNaprawa"
                     image={img1}
                     heading="Montaż i naprawa instalacji elektrycznych"
                 />
 
                 <ServiceData
-                    url="/services"
+                    url="/PomiaryInstalacji"
                     image={img2}
                     heading="Pomiary instalacji elektrycznych "
                 />
 
                 <ServiceData
+                    url = "/InstalacjeOdgromowe"
                     image={img3}
                     heading="Montaż instalacji odgromowych"
                 />
             </div>
             <div className="servicecard">
                 <ServiceData
+                    url = "/OsprzetElektryczny"
                     image={img4}
                     heading="Montaż osprzętu elektrycznego"
                 />
                 
                 <ServiceData
+                    url = "/Systemy"
                     image={img5}
                     heading="Systemy bezpieczeństwa"
                 />
                 
                 <ServiceData
+                    url = "/UkladanieKabli"
                     image={img6}
                     heading="Układanie kabli energetycznych w ziemi"
                 />
             </div>
             <div className="servicecard">
                 <ServiceData
+                    url = "/PrzylaczaEnergetyczne"
                     image={img7}
                     heading="Przyłącza energetyczne"
                 />
                 
                 <ServiceData
+                    url = "/PaneleFoto"
                     image={img8}
                     heading="Montaż paneli fotowoltaicznych"
                 />
                 
                 <ServiceData
+                    url = "/PodlaczanieAgd"
                     image={img9}
                     heading="Podłączanie sprzętu AGD"
                 />

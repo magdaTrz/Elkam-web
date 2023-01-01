@@ -2,7 +2,7 @@ import {Component} from "react";
 import {Link} from "react-router-dom";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
-import elkamLogo from  "../../src/assets/elkam-logo-czarne-1.png";
+import elkamLogo from  "../../src/assets/elkam-logo-czarne-1.jpg";
 
 class Navbar extends Component {
     state = {clicked: false};

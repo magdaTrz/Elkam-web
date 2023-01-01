@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 850px) {
     .card {
-        margin: 4rem 6rem;
+        margin: 2rem 4rem;
     }
     .first-des {
         display: flex;

@@ -1,6 +1,6 @@
 import "./HeroStyles.css";
-// import bulb from "../../src/assets/bulb.jpg"
-;
+// import bulb from "../../src/assets/bulb.jpg";
+
 function Hero (props) {
 
     const handleClickScroll = () => {
