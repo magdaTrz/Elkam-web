@@ -1,6 +1,6 @@
 import elkamLogo from  "../../src/assets/elkam-logo.png";
 import img1 from "../../src/assets/3montazosprzetuelektrycznego/2/2.jpg";
-import img3 from "../../src/assets/3montazosprzetuelektrycznego/11.JPG";
+import img3 from "../../src/assets/3montazosprzetuelektrycznego/11.jpg";
 
 import CardData from "./CardData";
 import "./CardStyles.css" 

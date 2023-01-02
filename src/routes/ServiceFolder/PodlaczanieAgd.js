@@ -1,8 +1,8 @@
 import Navbar from "../../components/Navbar.js"
 import Footer from "../../components/Footer.js"
 import ServiceOne from "../../components/ServiceOne.js"
-import img1 from "../../../src/assets/1montazinstalacjielektrycznej/2/2.jpg";
-import img2 from "../../../src/assets/1montazinstalacjielektrycznej/2/1.jpg";
+import img1 from "../../../src/assets/uslugi/air-conditioning.jpg";
+import img2 from "../../../src/assets/uslugi/plytaindukcyjna.jpg";
 
 function PodlaczanieAgd() {
     return (

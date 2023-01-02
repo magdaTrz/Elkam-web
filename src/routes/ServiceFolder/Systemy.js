@@ -1,8 +1,6 @@
 import Navbar from "../../components/Navbar.js"
 import Footer from "../../components/Footer.js"
 import ServiceOne from "../../components/ServiceOne.js"
-import img1 from "../../../src/assets/1montazinstalacjielektrycznej/2/2.jpg";
-import img2 from "../../../src/assets/1montazinstalacjielektrycznej/2/1.jpg";
 
 function Systemy() {
     return (
