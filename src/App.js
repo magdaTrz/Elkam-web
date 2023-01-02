@@ -6,6 +6,7 @@ import About from './routes/About';
 import Services from './routes/Services';
 import Gallery from './routes/Gallery.js';
 import Contact from './routes/Contact';
+import ThankYou from './routes/ThankYou';
 import MontazNaprawa from './routes/ServiceFolder/MontazNaprawa';
 import PomiaryInstalacji from './routes/ServiceFolder/PomiaryInstalacji';
 import InstalacjeOdgromowe from './routes/ServiceFolder/InstalacjeOdgromowe';
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/thankYou" element={<ThankYou />} />
         <Route path="/MontazNaprawa" element={<MontazNaprawa />} />     
         <Route path="/PomiaryInstalacji" element={<PomiaryInstalacji />} />
         <Route path="/InstalacjeOdgromowe" element={<InstalacjeOdgromowe />} />

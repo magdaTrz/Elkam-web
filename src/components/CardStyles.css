@@ -85,6 +85,7 @@
     .card {
         margin: 2rem 4rem;
     }
+
     .first-des {
         display: flex;
         flex-direction: column-reverse;
@@ -95,6 +96,10 @@
         display: flex;
         flex-direction: column-reverse;
         margin-top: 3.5rem;
+    }
+
+    .card h2 {
+        width: 95%;
     }
 
     .des-text {

@@ -10,12 +10,11 @@ function Gallery () {
     return (
         <>
         <Navbar/>
-        {/* <Hero
-            cName = "hero-mid"
-            heroImg = {img}
-            title = "Zobacz nasze realizacje"
+        <Hero
+            cName = "hero-sml"
+            title = ""
             btnClass = "hide"
-        /> */}
+        />
         <GalleryG/>
         <Footer/>
         </>

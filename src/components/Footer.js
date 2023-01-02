@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="contactLab">
               <h4>Kontakt</h4>
               <a href="/"> ul. Władysława Bełzy 9/40,<p>15-110 Białystok</p> </a>
-              <a href="/"><h5>Telefon:</h5>+(48) 601 825 483</a>
+              <a href="tel:+48-601-825-483"><h5>Telefon:</h5>+(48) 601 825 483</a>
               <a href="/"><h5>E-mail:</h5>biuro@elkamelectric.pl</a>
             </div>
             <div className="contactLab nip">

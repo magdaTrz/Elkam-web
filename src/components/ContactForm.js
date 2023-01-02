@@ -16,20 +16,29 @@ function ContactForm() {
                     ul. Władysława Bełzy 9/40, 15-110 Białystok
                 </div>
                 <div className="icon">
-                    <i class="fa-solid fa-phone"></i>
-                    +(48) 601 825 483
+                   <a className="contact-href" href="tel:+48-601-825-483"> 
+                        <i class="fa-solid fa-phone"></i>
+                        +(48) 601 825 483
+                    </a>
                 </div>
                 <div className="icon">
-                    <i class="fa-solid fa-envelope"></i>
-                    biuro@elkamelectric.pl
+                    <a className="contact-href" href="mailto:biuro@elkamelectric.pl">
+                        <i class="fa-solid fa-envelope"></i>
+                        biuro@elkamelectric.pl
+                    </a>
                 </div>
             </div>
-            <form>
-                <input placeholder="Imię i nazwisko"/>
-                <input placeholder="Adres email"/>
-                <input placeholder="Temat"/>
-                <textarea placeholder="Treść wiadomości" rows="4"></textarea>
-                <button>Wyślij</button>
+            <form action="https://formsubmit.co/biuro@elkamelectric.pl" method="POST">
+
+                <input type="hidden" name="_next" value="../src/routes/ThankYou.js"/>
+                <input type="hidden" name="_subject" placeholder="Temat"/> 
+                <input type="hidden" name="_captcha" value="false"/>
+                       
+                <input type="email" name="Email" placeholder="Adres Email" required/>
+                <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required />
+                <input className="message" type="text" name="Wiadomość" placeholder="Treść wiadomości" required />
+
+                <button type="submit">Wyślij</button>
             </form>
 
         </div>

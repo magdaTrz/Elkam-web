@@ -9,8 +9,7 @@ function Services () {
         <>
         <Navbar/>
         <Hero
-            cName = "hero-mid"
-            heroImg = {img}
+            cName = "hero-sml"
             title = ""
             btnClass = "hide"
         />

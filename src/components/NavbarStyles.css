@@ -19,7 +19,7 @@
 
 .navbar-logo img {
     margin-top: 15px;
-    height: 55px;
+    height: 65px;
 }
 
 .nav-menu {
@@ -104,10 +104,12 @@
     }
 
     .nav-links:hover {
-        background: #cc0404;
+        color: #cc0404;
+        font-weight: 800;
         transition: none;
         width: 80%;
         margin: auto;
+        background-color: white;
     }
 
     .contact {
