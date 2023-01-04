@@ -76,6 +76,10 @@
         width: 100%;
         padding: 10px;
     }
+    .serviceOCard h1 {
+        font-size: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
 
     .imageServiceCard {
         width: 100%;

@@ -1,80 +1,100 @@
-.footer {
+.footer{
     background: #d1d1d1;
     padding: 2rem 6rem 1rem ;
     color: rgb(0, 0, 0);
-    display: flex; 
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
 }
 
- .bottom img {
-    /* height: 80px; */
-    width: 500px;
-    /* margin-bottom: auto; */
-    padding: 20px;
-} 
-
-.bottom {
-    padding-top: 0rem;
-    text-align: start;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* margin: auto; */
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
 }
 
-.bottom i {
-    color: BLACK;
-    font-size: 1.2rem;
-    padding-right: 1rem;
+
+.footer .footer-left{
+	width: 20%;
+    align-items: center;
 }
 
-.bottom i:hover {
-    transform: scale(1.2);
+
+.footer .footer-company-name{
+	max-width: 200px;
+    color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
 }
 
-.contactLab {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+.footer .footer-center{
+	width: 45%;
 }
 
-.bottom h4 {
-    font-size: 1.3rem;
-    padding: 1rem 0 .8rem 0;
+.footer .footer-center i{
+	background-color:  #CD0002;
+	color: white;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
 }
 
-.bottom p {
-    padding-left: 2rem;
+.footer .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
 }
 
-.bottom a {
-    text-decoration: none;
-    color: BLACK;
-    padding-bottom: .4rem;
-    font-size: 1.1rem;
+.footer .footer-center p{
+	display: inline-block;
+	color: black;
+	vertical-align: middle;
+    font-weight: normal;
+	margin:0;
 }
 
-.map {
-    width: 400px;
-    padding: 0; 
-    padding-left: 10px;
+.footer .footer-center p span{
+	display:block;
+	font-weight: normal;
+	line-height:2;
 }
 
-.nip {
-    padding-bottom: ;
+.footer .footer-center p a{
+	text-decoration: none;
+    color:black;
 }
 
-@media screen and (max-width: 850px) {
-    .footer {
-        padding: 4rem 2rem;
-        text-align: center;
-    }
+.footer .footer-right{
+	width: 30%;
+}
 
-    .bottom {
-        /* display: grid; */
-    }
-    .map {
-        padding: 0; 
-    }
+.footer .footer-company-about{
+	margin: 0;
+}
 
+
+@media screen and (max-width: 880px) {
+
+	.footer .footer-left,
+	.footer .footer-center,
+	.footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+
+	.footer .footer-center i{
+		margin-left: 0;
+	}
 
 }
+

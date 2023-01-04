@@ -13,8 +13,9 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo"><img src={elkamLogo} alt="Logo"/></h1>
-                 
+                <div className="navbar-logo">
+                    <img src={elkamLogo} alt="Logo"/>
+                </div>
                 
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}> </i>

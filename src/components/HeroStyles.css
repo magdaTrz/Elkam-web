@@ -80,7 +80,7 @@ img {
         top: 15%;
         left: 50%;
         max-width: 85%;
-
+        line-height: 1px;
     }
 
     .hero-text h1 {
