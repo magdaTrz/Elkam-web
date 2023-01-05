@@ -4,6 +4,8 @@ import GalleryG from "../components/GalleryG.js";
 import Footer from "../components/Footer.js";
 
 function Gallery () {
+    window.scrollTo(0, 0);
+    
     return (
         <>
         <Navbar/>

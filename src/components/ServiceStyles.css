@@ -23,6 +23,12 @@
     justify-content: space-between;
 }
 
+.servicecard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .s-card {
     width: 32%;
     text-align: start; 
@@ -66,5 +72,15 @@
     .s-card {
         width: 100%;
         margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .service h1 {
+        font-size: 2.1rem;
+        text-align: center;
+    }
+    .service {
+        margin: 2rem 1rem;
     }
 }

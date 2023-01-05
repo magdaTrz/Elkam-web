@@ -1,10 +1,13 @@
 import "./ServiceOneStyles.css";
+import ServiceBar from "./ServiceBar";
 
 function ServiceOne (props) {
 
     return (
         <>
+        
         <div className="fullService"></div>
+            <ServiceBar/>
             <div className="serviceOCard">
                 <div className="serviceCard-text">
                     <h1>{props.title}</h1>

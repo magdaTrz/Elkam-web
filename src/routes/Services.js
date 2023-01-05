@@ -4,6 +4,8 @@ import Service from "../components/Service.js";
 import Footer from "../components/Footer.js"
 
 function Services () {
+    window.scrollTo(0, 0);
+    
     return (
         <>
         <Navbar/>

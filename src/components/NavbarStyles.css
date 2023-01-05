@@ -68,15 +68,23 @@
     display: none;
 }
 
+@media screen and (max-width: 1000px) {
+    .main {
+        display: none;
+
+    }
+}
+
 @media screen and (max-width: 850px) {
     .NavbarItems {
         z-index: 99;
+        margin: 0;
     }
     .nav-menu {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background: #fff;
+        background: white;
         width: 100%;
         height: auto;
         position: absolute;
@@ -97,7 +105,9 @@
         z-index: -1;
         transition: 0.3s ease-in-out;
     }
-
+    .navbar-logo img {
+        margin: 0;
+    }
     .nav-links {
         display: block;
         width: 100%;
@@ -135,6 +145,10 @@
     .menu-icons i {
         font-size: 1.5rem;
         color: #CD0002;
+        position: absolute;
+        margin: 0;
+        top: 30px;
+        right: 40px;
     }
 
 }

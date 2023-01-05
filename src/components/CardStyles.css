@@ -17,7 +17,8 @@
 .card h2 {
     width: 45%;
     color: #CD0002;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .first-des {
@@ -78,7 +79,6 @@
     top: -10%;
     right: 0;
     padding: 3%;
-    background-color: aqua;
 }
 
 @media screen and (max-width: 850px) {
@@ -89,17 +89,20 @@
     .first-des {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 2.5rem;
+        margin-top: 2rem;
     }
 
     .first-des-reverse {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 3.5rem;
+        margin-top: 3rem;
     }
-
+    .card h1 {
+        font-size: 2.5rem;
+    }
     .card h2 {
-        width: 95%;
+        font-size: 1.5rem;
+        width: 100%;
     }
 
     .des-text {
@@ -113,5 +116,20 @@
 
     .image img {
         height: 250px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .card {
+        margin: 1rem 2rem;
+    }
+    .card h1 {
+        font-size: 2.2rem;
+    }
+    .card h2 {
+        font-size: 1.2rem;
+    }
+    .card p {
+        font-size: 1rem;
+        padding-bottom: .5rem;
     }
 }

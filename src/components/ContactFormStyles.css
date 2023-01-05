@@ -49,9 +49,17 @@
     border: 1px solid rgb(0,0,0,.26);
 }
 
+.form-container textarea {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+    border: 1px solid rgb(0,0,0,.26);
+}
+
 .form-container .message {
     padding: 1rem;
     min-height: 150px;
+    text-align: start;
 }
 
 .form-container button {
@@ -77,12 +85,12 @@
 
 @media screen and (max-width: 850px) {
     .form-container {
-        margin: 4rem 2rem;
+        margin: 2rem 1rem;
         flex-direction: column;
     }
 
     .form-container form {
         width: 90%;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 }

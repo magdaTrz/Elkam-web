@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./ServiceStyles.css";
 
 function ServiceData(props) {

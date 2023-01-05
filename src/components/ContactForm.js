@@ -1,8 +1,18 @@
+import { useNavigate } from "react-router-dom";
+
 import "./ContactFormStyles.css";
 
 // www.emailjs.com
 
 function ContactForm() {
+
+    const navigate = useNavigate();
+
+    const handleSubmit = event => {
+        event.preventDefault();
+        navigate('/thankYou');
+    };
+
     return(
     <>
         <div className="heading">
@@ -30,15 +40,15 @@ function ContactForm() {
             </div>
             <form action="https://formsubmit.co/biuro@elkamelectric.pl" method="POST">
 
-                <input type="hidden" name="_next" value="../src/routes/ThankYou.js"/>
                 <input type="hidden" name="_subject" placeholder="Temat"/> 
                 <input type="hidden" name="_captcha" value="false"/>
+                <input type="hidden" name="_next" value="https://elkamelectric.pl/thankYou"/>
                        
-                <input type="email" name="Email" placeholder="Adres Email" required/>
+                <input type="email" name="Email" placeholder="Adres e-mail" required/>
                 <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required />
-                <input className="message" type="text" name="Wiadomość" placeholder="Treść wiadomości" required />
+                <textarea className="message" type="text" name="Wiadomość" placeholder="Treść wiadomości" required></textarea>
 
-                <button type="submit">Wyślij</button>
+                <button type="submit" > Wyślij </button>
             </form>
 
         </div>

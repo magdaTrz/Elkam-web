@@ -2,16 +2,15 @@ import Navbar from "../components/Navbar.js"
 import Hero from "../components/Hero.js";
 import AboutUs from "../components/AboutUs.js";
 import Footer from "../components/Footer.js";
-import CardData from "../components/CardData.js";
-import img from "../../src/assets/uslugi/rozdzielnica.jpg";
 
 function About () {
+    window.scrollTo(0, 0);
+    
     return (
         <>
         <Navbar/>
         <Hero
             cName = "hero-mid"
-            heroImg = {img}
             title = ""
             btnClass = "hide"
         />

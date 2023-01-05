@@ -1,5 +1,4 @@
 import './styles.css';
-// import { Route, Routes } from 'react-router-dom';
 
 import Home from "./routes/Home";
 import About from './routes/About';
@@ -21,6 +20,7 @@ import UkladanieKabli from './routes/ServiceFolder/UkladanieKabli';
 import {Route, Routes} from "react-router-dom";
 
 export default function App() {
+
   return (
     <div className="App">
       <Routes>
@@ -30,7 +30,7 @@ export default function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/thankYou" element={<ThankYou />} />
-        <Route path="/MontazNaprawa" element={<MontazNaprawa />} />     
+        <Route path="/MontazNaprawa" element={<MontazNaprawa />} />
         <Route path="/PomiaryInstalacji" element={<PomiaryInstalacji />} />
         <Route path="/InstalacjeOdgromowe" element={<InstalacjeOdgromowe />} />
         <Route path="/OsprzetElektryczny" element={<OsprzetElektryczny />} />
@@ -40,10 +40,6 @@ export default function App() {
         <Route path="/PrzylaczaEnergetyczne" element={<PrzylaczaEnergetyczne />} />
         <Route path="/UkladanieKabli" element={<UkladanieKabli />} />
       </Routes>
-
-  
-      
     </div>
   );
 }
-

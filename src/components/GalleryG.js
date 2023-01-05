@@ -80,12 +80,12 @@ const GalleryG = () => {
     return (
         <>
             <div className={model? "model open" : "model"}>
-                <img src={tempImgSrc}/>
+                <img src={tempImgSrc} />
                 <i class="fa-solid fa-xmark" onClick={() => setModel(false)}></i>
             </div>
             <div className="gallery-header">
                 <h1>Zdjecia realizacji</h1>
-                <p >Skontaktuj się z nami, a na pewno pomożemy Ci rozwiązać Twój problem!</p>
+                <p>Skontaktuj się z nami, a na pewno pomożemy Ci rozwiązać Twój problem!</p>
             </div>
             <div className="gallery-card">
                 <h2>Montaż instalacji elektrycznej</h2>
