@@ -1,17 +1,9 @@
-import { useNavigate } from "react-router-dom";
-
 import "./ContactFormStyles.css";
 
 // www.emailjs.com
 
 function ContactForm() {
 
-    const navigate = useNavigate();
-
-    const handleSubmit = event => {
-        event.preventDefault();
-        navigate('/thankYou');
-    };
 
     return(
     <>
