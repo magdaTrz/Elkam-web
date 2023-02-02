@@ -1,24 +1,24 @@
 .about-container {
-    padding: 4rem 6rem;
-    text-align: start;
-    width: 60%;
-    height: fit-content;
+  padding: 4rem 6rem;
+  text-align: start;
+  width: 60%;
+  height: fit-content;
 }
 
 .about-container h1 {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .about-container p {
-    padding-bottom: 2rem;
-    font-size: 20px;
+  padding-bottom: 2rem;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 850px) {
-    .about-container {
-        width: 100%;
-        height: fit-content;
-        padding: 2rem;
-        font-size: 12px;
-    }
+  .about-container {
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+    font-size: 12px;
+  }
 }

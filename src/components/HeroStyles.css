@@ -1,149 +1,153 @@
 .hero {
-    width: 100%;
-    padding-top: 90px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.05),
-                                      rgba(255, 255, 255, 0.25)),
-                      url("../../src/assets/IMG1.jpg");
-    background-position: bottom;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: left;
-    justify-content: center;
+  width: 100%;
+  padding-top: 90px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.25)
+    ),
+    url("../../src/assets/IMG1.jpg");
+  background-position: bottom;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: left;
+  justify-content: center;
 }
 
 .hero-mid {
-    width: 100%;
-    height: 60vh;
-    padding-top: 90px;
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.05),
-                                      rgba(255, 255, 255, 0.25)),
-                      url("../../src/assets/uslugi/rozdzielnica.jpg");
-    background-position: bottom;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    align-items: lef;
-    justify-content: center;
+  width: 100%;
+  height: 60vh;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.25)
+    ),
+    url("../../src/assets/uslugi/rozdzielnica.jpg");
+  background-position: bottom;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: lef;
+  justify-content: center;
 }
 
 .hero-sml {
-    height: 10vh;
-    padding-top: 90px;
+  height: 10vh;
+  padding-top: 90px;
 }
 
 .hero .hero-text {
-    backdrop-filter: blur(1px) ;
-    border-radius: 12px;
-    position: relative;
-    bottom: 100px;
-    width: 45%;
-    margin-left: 4rem;
-    padding: 1rem 0 0 1rem;
+  backdrop-filter: blur(1px);
+  border-radius: 12px;
+  position: relative;
+  bottom: 100px;
+  width: 45%;
+  margin-left: 4rem;
+  padding: 1rem 0 0 1rem;
 }
 .hero-text h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
 }
 .hero-text p {
-
 }
 
 .show {
-    background-color: #CD0002;
-    color: white;
-    padding: 1rem 2rem;
-    border-radius: 6px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-decoration: none;
-    transition: transform 0.5s ease-in-out;
+  background-color: #cd0002;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: transform 0.5s ease-in-out;
 }
 .show:hover {
-    border-radius: 7px;
-    background-color: black;
-    transition: transform 0.5s ease-in-out;
+  border-radius: 7px;
+  background-color: black;
+  transition: transform 0.5s ease-in-out;
 }
 
 .hero-text .hide {
-    display: none;
+  display: none;
 }
 
-.back{
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    padding: 1rem 2rem;
-    border-radius: 6px;
-    transition: color 0.3s;
-    text-decoration: none;
+.back {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  transition: color 0.3s;
+  text-decoration: none;
 }
 .back:hover {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
-@supports ( -webkit-touch-callout : none) {
-    .hero, .hero-mid {
-        background-attachment:scroll
-    }
+@supports (-webkit-touch-callout: none) {
+  .hero,
+  .hero-mid {
+    background-attachment: scroll;
+  }
 }
-    
-@supports not ( -webkit-touch-callout : none) {
-    .hero, .hero-mid {
-        background-attachment: fixed;
-    }
+
+@supports not (-webkit-touch-callout: none) {
+  .hero,
+  .hero-mid {
+    background-attachment: fixed;
+  }
 }
 
 @media screen and (max-width: 950px) {
-    .hero {
-        align-items: center;
-    }
-    .hero .hero-text{
-        backdrop-filter: blur(2px) ;
-        color: rgb(0, 0, 0);
-        width: 100%;
-        top: -140px;
-        margin: 0;
-    }
-    .hero-text h1 {
-        font-size: 2.5rem;
-    }
-    .back{
-        font-size: 1.1rem;
-    }
-
+  .hero {
+    align-items: center;
+  }
+  .hero .hero-text {
+    backdrop-filter: blur(2px);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    top: -140px;
+    margin: 0;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  .back {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 670px) {
-    .hero {
-        align-items: center;
-        margin: 0;
-    }
-    .hero .hero-text{
-        margin: 0;
-    }
-    
-    .hero-text h1 {
-        font-size: 2.2rem;
-    }
-    .hero-text p {
-        font-size: 1.1rem;
-    } 
-    .hero-text .show{
-        border-radius: 6px;
-        font-size: 0.9rem;
-        width: 100%;
-    } 
-    .back{
-        font-size: 1rem;
-    }
+  .hero {
+    align-items: center;
+    margin: 0;
+  }
+  .hero .hero-text {
+    margin: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+  .hero-text .show {
+    border-radius: 6px;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .back {
+    font-size: 1rem;
+  }
 }

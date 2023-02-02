@@ -1,135 +1,135 @@
 .card-background {
-    background-color: #fcfcfc;;
-    z-index: -11000;
+  background-color: #fcfcfc;
+  z-index: -11000;
 }
 
 .card {
-    margin: 4rem 6rem;
+  margin: 4rem 6rem;
 }
 
 .card h1 {
-    font-size: 3.1rem;
-    font-weight: bold;
-    text-align: start;
-    color: rgb(0, 0, 0);
+  font-size: 3.1rem;
+  font-weight: bold;
+  text-align: start;
+  color: rgb(0, 0, 0);
 }
 
 .card h2 {
-    width: 45%;
-    color: #CD0002;
-    font-size: 1.5rem;
-    font-weight: 500;
+  width: 45%;
+  color: #cd0002;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .first-des {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
 }
 
 .first-des-about {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: .5rem;
-    margin: 4rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin: 4rem 6rem;
 }
 
 .first-des-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 4.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
 }
 
 .des-text {
-    width: 45%;
-    text-align: start;
-    font-size: 1.1rem;  
+  width: 45%;
+  text-align: start;
+  font-size: 1.1rem;
 }
 
 .des-text h2 {
 }
 
 .des-text p {
-    padding-bottom: 1.2rem;
-    font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .image {
-    position: relative;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
 
 .image img {
-    width: 80%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 6px;
-    box-shadow: -1px 1px 62px -18px rgb(0, 0, 0, .19);
+  width: 80%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgb(0, 0, 0, 0.19);
 }
 
 .image img:nth-child(2) {
-    position: absolute;
-    top: -10%;
-    right: 0;
-    padding: 3%;
+  position: absolute;
+  top: -10%;
+  right: 0;
+  padding: 3%;
 }
 
 @media screen and (max-width: 850px) {
-    .card {
-        margin: 2rem 4rem;
-    }
+  .card {
+    margin: 2rem 4rem;
+  }
 
-    .first-des {
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 2rem;
-    }
+  .first-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
 
-    .first-des-reverse {
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 3rem;
-    }
-    .card h1 {
-        font-size: 2.5rem;
-    }
-    .card h2 {
-        font-size: 1.5rem;
-        width: 100%;
-    }
+  .first-des-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+  }
+  .card h1 {
+    font-size: 2.5rem;
+  }
+  .card h2 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
 
-    .des-text {
-        width: 100%;
-    }
+  .des-text {
+    width: 100%;
+  }
 
-    .image {
-        width: 100%;
-        margin: 1.8rem 0;
-    }
+  .image {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
 
-    .image img {
-        height: 250px;
-    }
+  .image img {
+    height: 250px;
+  }
 }
 @media screen and (max-width: 670px) {
-    .card {
-        margin: 1rem 2rem;
-    }
-    .card h1 {
-        font-size: 2.2rem;
-    }
-    .card h2 {
-        font-size: 1.2rem;
-    }
-    .card p {
-        font-size: 1rem;
-        padding-bottom: .5rem;
-    }
+  .card {
+    margin: 1rem 2rem;
+  }
+  .card h1 {
+    font-size: 2.2rem;
+  }
+  .card h2 {
+    font-size: 1.2rem;
+  }
+  .card p {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
 }
