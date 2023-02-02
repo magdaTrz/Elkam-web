@@ -80,7 +80,7 @@ const GalleryG = () => {
   return (
     <>
       <div className={model ? "model open" : "model"}>
-        <img src={tempImgSrc} />
+        <img src={tempImgSrc} alt={tempImgSrc} />
         <i class="fa-solid fa-xmark" onClick={() => setModel(false)}></i>
       </div>
       <div className="gallery-header">
@@ -99,7 +99,7 @@ const GalleryG = () => {
                 key={index}
                 onClick={() => getImg(item.imgSrc)}
               >
-                <img alt="image" src={item.imgSrc} />
+                <img alt={item.imgSrc} src={item.imgSrc} />
               </div>
             );
           })}
@@ -114,7 +114,7 @@ const GalleryG = () => {
                 key={index}
                 onClick={() => getImg(item.imgSrc)}
               >
-                <img alt="image" src={item.imgSrc} />
+                <img alt={item.imgSrc} src={item.imgSrc} />
               </div>
             );
           })}
@@ -129,7 +129,7 @@ const GalleryG = () => {
                 key={index}
                 onClick={() => getImg(item.imgSrc)}
               >
-                <img alt="image" src={item.imgSrc} />
+                <img alt={item.imgSrc} src={item.imgSrc} />
               </div>
             );
           })}
@@ -144,7 +144,7 @@ const GalleryG = () => {
                 key={index}
                 onClick={() => getImg(item.imgSrc)}
               >
-                <img alt="image" src={item.imgSrc} />
+                <img alt={item.imgSrc} src={item.imgSrc} />
               </div>
             );
           })}
@@ -159,7 +159,7 @@ const GalleryG = () => {
                 key={index}
                 onClick={() => getImg(item.imgSrc)}
               >
-                <img alt="image" src={item.imgSrc} />
+                <img alt={item.imgSrc} src={item.imgSrc} />
               </div>
             );
           })}
