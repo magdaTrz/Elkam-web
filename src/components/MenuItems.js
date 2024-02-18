@@ -30,3 +30,10 @@ export const MenuItems = [
   //     cName : "nav-links"
   // }
 ];
+
+export const MenuLogo = [
+  {
+    alt: "Logo Elkam",
+    url: "/",
+  },
+];

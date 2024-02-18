@@ -11,7 +11,7 @@ class CardData extends Component {
           <p>{this.props.arg2}</p>
         </div>
         <div className="image">
-          <img alt="zdjecie1" src={this.props.img1} />
+          {this.props.img1 && <img alt="zdjecie1" src={this.props.img1} />}
         </div>
       </div>
     );
