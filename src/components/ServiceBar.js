@@ -10,12 +10,12 @@ function ServiceBar() {
     },
     { url: "/PomiaryInstalacji", title: "Pomiary instalacji elektrycznych" },
     { url: "/InstalacjeOdgromowe", title: "Montaż instalacji odgromowych" },
-    { url: "/OsprzetElektryczny", title: "Montaż osprzętu elektrycznego" },
-    { url: "/Systemy", title: "Systemy bezpieczeństwa" },
-    { url: "/UkladanieKabli", title: "Układanie kabli energetycznych w ziemi" },
+    { url: "/OsprzetElektryczny", title: "Prefabrykacja rozdzielnic" },
+    { url: "/Systemy", title: "Systemy zabezpieczeń" },
+    { url: "/UkladanieKabli", title: "Wykonywanie tras kablowych" },
     { url: "/PrzylaczaEnergetyczne", title: "Przyłącza energetyczne" },
-    { url: "/PaneleFoto", title: "Montaż paneli fotowoltaicznych" },
-    { url: "/PodlaczanieAgd", title: "Podłączanie sprzętu AGD" },
+    { url: "/PaneleFoto", title: "Montaż odnawialnych źródeł energii" },
+    { url: "/PodlaczanieAgd", title: "Systemy automatyki" },
   ];
 
   return (
