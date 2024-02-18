@@ -1,7 +1,7 @@
 import Hero from "../components/Hero.js";
 import Navbar from "../components/Navbar.js";
 
-import img from "../../src/assets/IMG1.jpg";
+import img from "../../src/assets/IMG1.webp";
 
 function ThankYou() {
   window.scrollTo(0, 0);

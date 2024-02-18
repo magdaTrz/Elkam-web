@@ -1,15 +1,15 @@
 import "./ServiceStyles.css";
 import ServiceData from "./ServiceData";
 
-import img1 from "../../src/assets/uslugi/rozdzielnica.jpg"; //Montaż i naprawa instalacji elektrycznych
-import img2 from "../../src/assets/uslugi/protokol.jpg"; //Pomiary instalacji elektrycznych
-import img3 from "../../src/assets/uslugi/uziemnienie.jpg"; //Montaż instalacji odgromowych
-import img4 from "../../src/assets/uslugi/gniazdko.jpg"; //Montaż osprzętu elektrycznego
-import img5 from "../../src/assets/uslugi/kamera.jpg"; //Systemy bezpieczeństwa
-import img6 from "../../src/assets/6ukladaniekabli/kable3.jpg"; //Układanie kabli energetycznych w ziemi
-import img7 from "../../src/assets/uslugi/kable.jpg"; //Przyłącza energetyczne
-import img8 from "../../src/assets/uslugi/solar.jpg"; //Montaż paneli fotowoltaicznych
-import img9 from "../../src/assets/uslugi/plytaindukcyjna.jpg"; //Podłączanie sprzętu AGD
+// import img1 from "../../src/assets/uslugi/rozdzielnica.webp"; //Montaż i naprawa instalacji elektrycznych
+// import img2 from "../../src/assets/uslugi/protokol.webp"; //Pomiary instalacji elektrycznych
+// import img3 from "../../src/assets/uslugi/uziemnienie.webp"; //Montaż instalacji odgromowych
+// import img4 from "../../src/assets/uslugi/gniazdko.webp"; //Montaż osprzętu elektrycznego
+// import img5 from "../../src/assets/uslugi/kamera.webp"; //Systemy bezpieczeństwa
+// import img6 from "../../src/assets/6ukladaniekabli/kable3.webp"; //Układanie kabli energetycznych w ziemi
+// import img7 from "../../src/assets/uslugi/kable.webp"; //Przyłącza energetyczne
+// import img8 from "../../src/assets/uslugi/solar.webp"; //Montaż paneli fotowoltaicznych
+// import img9 from "../../src/assets/uslugi/plytaindukcyjna.webp"; //Podłączanie sprzętu AGD
 
 function Service(props) {
   return (
@@ -20,61 +20,61 @@ function Service(props) {
       </p>
       <div className="servicecard">
         <ServiceData
-          url="/MontazNaprawa"
-          image={img1}
-          heading="Montaż i naprawa instalacji elektrycznych"
+          url="/UkladanieKabli"
+          // image={img6}
+          heading="Wykonywanie tras kablowych"
         />
 
         <ServiceData
-          url="/PomiaryInstalacji"
-          image={img2}
-          heading="Pomiary instalacji elektrycznych "
+          url="/PrzylaczaEnergetyczne"
+          // image={img7}
+          heading="Przyłącza energetyczne"
         />
 
         <ServiceData
-          url="/InstalacjeOdgromowe"
-          image={img3}
-          heading="Montaż instalacji odgromowych"
+          url="/Systemy"
+          // image={img5}
+          heading="Systemy zabezpieczeń"
         />
       </div>
 
       <div className="servicecard">
         <ServiceData
           url="/OsprzetElektryczny"
-          image={img4}
-          heading="Montaż osprzętu elektrycznego"
+          // image={}
+          heading="Prefabrykacja rozdzielnic"
         />
 
         <ServiceData
-          url="/Systemy"
-          image={img5}
-          heading="Systemy bezpieczeństwa"
+          url="/MontazNaprawa"
+          // image={img1}
+          heading="Montaż i naprawa instalacji elektrycznych"
         />
 
         <ServiceData
-          url="/UkladanieKabli"
-          image={img6}
-          heading="Układanie kabli energetycznych w ziemi"
+          url="/PomiaryInstalacji"
+          // image={img2}
+          heading="Pomiary instalacji elektrycznych "
         />
       </div>
 
       <div className="servicecard">
         <ServiceData
-          url="/PrzylaczaEnergetyczne"
-          image={img7}
-          heading="Przyłącza energetyczne"
+          url="/InstalacjeOdgromowe"
+          // image={img3}
+          heading="Montaż instalacji odgromowych"
         />
 
         <ServiceData
           url="/PaneleFoto"
-          image={img8}
-          heading="Montaż paneli fotowoltaicznych"
+          // image={img8}
+          heading="Montaż odnawialnych źródeł energii"
         />
 
         <ServiceData
           url="/PodlaczanieAgd"
-          image={img9}
-          heading="Podłączanie sprzętu AGD"
+          // image={img9}
+          heading="Systemy automatyki"
         />
       </div>
     </div>

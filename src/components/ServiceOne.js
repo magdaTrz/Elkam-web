@@ -23,8 +23,12 @@ function ServiceOne(props) {
           <p>{props.text4}</p>
         </div>
         <div className="imageServiceCard">
-          <img alt="" src={props.serviceImg1} />
-          <img alt="" src={props.serviceImg2} />
+          {props.serviceImg1 && <img alt="" src={props.serviceImg1} />}
+          {props.serviceImg2 && <img alt="" src={props.serviceImg2} />}
+          {props.serviceImg3 && <img alt="" src={props.serviceImg3} />}
+          {props.serviceImg4 && <img alt="" src={props.serviceImg4} />}
+          {props.serviceImg5 && <img alt="" src={props.serviceImg5} />}
+          {props.serviceImg6 && <img alt="" src={props.serviceImg6} />}
         </div>
       </div>
     </>

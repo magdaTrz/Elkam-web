@@ -45,7 +45,7 @@
 }
 
 .des-text {
-  width: 45%;
+  width: 85%;
   text-align: start;
   font-size: 1.1rem;
 }
@@ -89,7 +89,7 @@
   .first-des {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 2rem;
+    margin-top: 0.1rem;
   }
 
   .first-des-reverse {

@@ -11,7 +11,7 @@
 }
 
 .serviceCard-text {
-  padding: 4rem;
+  padding-top: 4rem;
   align-items: center;
   justify-content: space-between;
   width: 45%;
@@ -48,17 +48,18 @@
 
 .imageServiceCard {
   width: 50%;
+  margin-top: 55px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   z-index: 1;
 }
 
 .imageServiceCard img {
-  margin-top: 100px;
-  padding-left: 10px;
+  margin: 5px;
   border-radius: 6px;
-  width: 50%;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgb(0, 0, 0, 0.19);
